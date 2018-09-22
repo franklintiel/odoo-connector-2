@@ -1,5 +1,5 @@
 # Easy Connector with Odoo ERP!
-This is a library that allow an easy connection with Odoo ERP instance on Pyhton 3.x
+This is a library that allow an easy and friendly connection with Odoo ERP instance on Pyhton 3.x
 
 ## Installation using PIP command
 - Use the command "pip install odoo_connector_2"
@@ -10,7 +10,7 @@ odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', u
 uid = odoo.connect()
 ```
 ### Hot to add, edit and delete
-```
+```python
 from odoo.connectors import OdooConnector
 odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', username='your-odoo-user', password='your-odoo-password')
 uid = odoo.connect()
