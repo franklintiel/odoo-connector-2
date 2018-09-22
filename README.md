@@ -70,7 +70,7 @@ result = odoo.search(
 ```
 
 The search and write methods were tested with all methods allowed on the External API Documentation from Odoo website
-and this methods can work with any methods from any models existing on Odoo instance
+and the write() and search() methods can work with any methods from any models existing on Odoo instance
 
 ### To test any methods using unittest
 
