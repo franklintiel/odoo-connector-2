@@ -4,7 +4,7 @@ This is a library that allow an easy and friendly connection with Odoo ERP insta
 ## Installation using PIP command
 - Use the command "pip install odoo_connector_2"
 ## How to use connect
-```
+```python
 from odoo.connectors import OdooConnector
 odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', username='your-odoo-user', password='your-odoo-password')
 uid = odoo.connect()
@@ -34,7 +34,7 @@ result = odoo.write(uid=uid, model='res.users', action='signup', data=data)
 ```
 
 ### Hot to search, search_read and read
-```
+```python
 from odoo.connectors import OdooConnector
 odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', username='your-odoo-user', password='your-odoo-password')
 uid = odoo.connect()
@@ -73,6 +73,6 @@ and this methods can work with any methods from any models existing on Odoo inst
 - Download or clone this repository
 - Edit the attributes from the DummieData class (find this class on tests/unittests.py)
 - run the follow command on the root directory.
-```
+```shell
 $ python -m unittest -v tests/unittest.py
 ```
