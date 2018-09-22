@@ -13,7 +13,7 @@ from odoo.connectors import OdooConnector
 odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', username='your-odoo-user', password='your-odoo-password')
 uid = odoo.connect()
 ```
-### Hot to add, edit and delete
+### Hot to add, edit and delete ( using the method write() )
 ```python
 from odoo.connectors import OdooConnector
 odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', username='your-odoo-user', password='your-odoo-password')
@@ -37,7 +37,7 @@ data = [{'login': 'test@domain.com', 'name': 'Test User', 'password': '123456'}]
 result = odoo.write(uid=uid, model='res.users', action='signup', data=data)
 ```
 
-### Hot to search, search_read and read
+### Hot to search, search_read and read ( using the method search() )
 ```python
 from odoo.connectors import OdooConnector
 odoo = OdooConnector(endpoint='your-odoo-endpoint', dbname='your-odoo-dbname', username='your-odoo-user', password='your-odoo-password')
