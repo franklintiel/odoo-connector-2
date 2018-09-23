@@ -4,7 +4,7 @@ This is a library that allow an easy and friendly connection with an Odoo ERP in
 ## Installation using PIP command
 - Use the command
 ```shell
-$ pip install odoo_connector_2
+$ pip install odoo-connector-2
 ```
 
 ## How to use connect
@@ -78,3 +78,9 @@ $ python -m unittest -v tests/unittest.py
 ```
 
 This is all, very very easy and friendly to work with Odoo from any Pyhton project using this library.
+
+## Releases notes:
+* **1.0.0**: Initial version
+* **1.0.1**: README.md updated
+* **1.0.2**: Bugs fixed related with the encoding defined on the ServerProxy connection.
+* **1.0.3**: README.md updated.
