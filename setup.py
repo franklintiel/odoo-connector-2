@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
     name="odoo_connector_2",
-    version="1.0.1",
+    version="1.0.2",
     author="Franklin Sarmiento",
     author_email="franklinitiel@gmail.com",
     description="This is a library that allow an easy and friendly connection with an Odoo ERP instance on Pyhton 3.x",
