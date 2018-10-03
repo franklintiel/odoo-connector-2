@@ -1,5 +1,5 @@
 import unittest
-from odoo.connectors import OdooConnector
+from odoo_connector.connectors import OdooConnector
 
 class DummieData(object):
     """
